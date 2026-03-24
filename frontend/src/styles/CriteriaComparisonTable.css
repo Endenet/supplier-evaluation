@@ -1,0 +1,84 @@
+.comparison-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.buttons-container {
+    margin: 10px 0;
+}
+
+.refresh-button,
+.generate-button,
+.calculate-button,
+.get-weights-button {
+    margin: 5px;
+    padding: 8px 16px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.refresh-button {
+    background-color: #007bff;
+}
+
+.generate-button {
+    background-color: #28a745;
+}
+
+.calculate-button {
+    background-color: #ffc107;
+}
+
+.get-weights-button {
+    background-color: #17a2b8;
+}
+
+.refresh-button:disabled,
+.generate-button:disabled,
+.calculate-button:disabled,
+.get-weights-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.comparison-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.comparison-table th,
+.comparison-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    font-size: calc(0.9rem + 0.3vw);
+}
+
+.comparison-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.comparison-table td {
+    background-color: #fff;
+}
+
+.weights-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .comparison-table th, .comparison-table td {
+        font-size: 0.8rem;
+        padding: 6px;
+    }
+}

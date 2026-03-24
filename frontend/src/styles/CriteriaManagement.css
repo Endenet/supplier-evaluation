@@ -1,0 +1,47 @@
+.criteria-container {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.criteria-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.criteria-form input,
+.criteria-form select,
+.criteria-form button {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.criteria-form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.criteria-form button:hover {
+  background-color: #0056b3;
+}
+
+.criteria-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.criteria-table th,
+.criteria-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.criteria-table th {
+  background-color: #f5f5f5;
+  text-align: left;
+}

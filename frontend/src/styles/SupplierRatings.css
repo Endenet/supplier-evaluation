@@ -1,0 +1,32 @@
+/* Rating Page */
+.supplier-ratings-container {
+  margin-top: 2rem;
+}
+
+.supplier-ratings-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.supplier-ratings-container th,
+.supplier-ratings-container td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.supplier-ratings-container th {
+  background-color: #f8f8f8;
+}
+
+.supplier-ratings-container tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Error Message */
+.error-message {
+  color: #ff0000;
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}

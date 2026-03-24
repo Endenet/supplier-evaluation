@@ -1,0 +1,61 @@
+.evaluation-comparison-page {
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  padding: 40px;
+}
+
+.evaluation-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.evaluation-header h2 {
+  margin-bottom: 20px;
+  color: #003366;
+}
+
+/* Reuse SupplierManagement.css buttons via .tab-buttons */
+.tab-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+/* .eval-btn styles removed to avoid style conflicts */
+
+.evaluation-content {
+  text-align: center;
+}
+
+.evaluation-actions {
+  margin-top: 40px;
+  font-size: 18px;
+  color: #444;
+}
+
+.page-footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back-button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}

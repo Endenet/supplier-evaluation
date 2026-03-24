@@ -1,0 +1,131 @@
+.report-page {
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fc;
+  min-height: 100vh;
+}
+
+.report-header {
+  display: flex;
+  justify-content: space-between; /* Aligns the elements to opposite sides */
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.report-header h2 {
+  margin: 0;
+}
+
+.report-header button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.report-header button:hover {
+  background-color: #1d4ed8;
+}
+
+.report-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.report-form input,
+.report-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.report-form input:focus,
+.report-form textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+.report-form button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.report-form button:hover {
+  background-color: #1d4ed8;
+}
+
+.report-message {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.report-message.warning {
+  color: #e53e3e;
+}
+
+.report-message.success {
+  color: #38a169;
+}
+
+.back-button {
+  padding: 8px 16px;
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.back-button:hover {
+  background-color: #4f46e5;
+}
+
+.tab-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tab-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.tab-buttons button.active,
+.tab-buttons button:hover {
+  background-color: #1d4ed8;
+}
