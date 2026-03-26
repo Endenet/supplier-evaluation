@@ -120,7 +120,7 @@ const UserDashboard = () => {
         </section>
 
         <footer className="admin-footer">
-          <p>Admin Dashboard Footer</p>
+          <p>User Dashboard Footer</p>
         </footer>
       </div>
     </div>
